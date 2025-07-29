@@ -18,5 +18,17 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "kv_namespaces": [
+		{
+			"binding": "TAIWANFRP",
+			"id": "3c4d3c4b8cbe4f3ea49efda3acabf425"
+		}
+	],
+  "routes": [
+		{
+			"pattern": "r2-dash.taiwanfrp.me",
+			"custom_domain": true
+		}
+	]
 }
